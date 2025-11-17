@@ -1,21 +1,11 @@
 <script>
-    import david from "$lib/assets/temoignages/1.webp"
     import bakari from "$lib/assets/temoignages/2.webp"
     import monique from "$lib/assets/temoignages/4.webp"
     import hanine from "$lib/assets/temoignages/3.webp"
     let temoignages = [
         {
             id: 0,
-            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/temoignage_david_mp4.mp4?t=2023-08-20T17%3A28%3A17.038Z",
-            image:`${david}`,
-            name: "David LEFRANCOIS",
-            job: "Fondateur de l’Institut des Neurosciences Appliquées",
-            temType: "texte",
-            link:'https://www.youtube.com/channel/UCsOuelHUWaWuqvRFKBnTIYw'
-        },
-        {
-            id: 1,
-            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/hanine%20(1).mp4?t=2023-08-04T16%3A56%3A06.714Z",
+            media: "https://dropp.server.kevinb.run/$/jwWI5",
             image:`${hanine}`,
             temType: "video",
             name:"Hanine Mhannd",
@@ -23,8 +13,8 @@
             link:"https://haninemhannd.com/"
         },
         {
-            id:2,
-            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/monique%20(1).mp4?t=2023-08-04T16%3A59%3A44.724Z",
+            id: 1,
+            media: "https://dropp.server.kevinb.run/$/CILSb",
             image:`${monique}`,
             temType: "video",
             name: "Monique Sallaz",
@@ -32,8 +22,8 @@
             link:"https://zebrologieetcie.com/mon-parcours"
         },
         {
-            id:3,
-            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/bakari?t=2023-08-08T12%3A49%3A49.773Z",
+            id: 2,
+            media: "https://dropp.server.kevinb.run/$/1md7q",
             image: `${bakari}`,
             temType: "video",
             name: "Bakari Niakaté",

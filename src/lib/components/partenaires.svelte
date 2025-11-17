@@ -11,39 +11,14 @@
 
     let images = [
         {
-            img: bain,
-            alt: "Partenaire Bains",
-            link:'https://www.bainsmunicipauxdestrasbourg.fr/'
-        },
-        {
-            img: eg,
-            alt: "Partenaire Eg company",
-            link:'https://egcompanyacademy.com/'
-        },
-        {
             img: heroes,
             alt: "Partenaire Good Bye Confort zone",
             link:'https://goodbyecomfort.zone/'
         },
         {
-            img: hotel,
-            alt: "Partenaire Hotel",
-            link:'https://hotelbeaucour.quotelo.io/'
-        },
-        {
-            img: strasbourg,
-            alt: "Partenaire Strasbourg",
-            link:'https://www.visitstrasbourg.fr/'
-        },
-        {
             img: simoh,
             alt: "Partenaire Simoh Chah",
             link:'https://www.simochah.com'
-        },
-        {
-            img: ina,
-            alt: "Partenaire David lde françois",
-            link:'https://davidlefrancois.com'
         },
         {
             img: udemy,

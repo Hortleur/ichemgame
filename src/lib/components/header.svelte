@@ -39,31 +39,7 @@
 			>
 				<li><a  href="/" target="_self">Accueil</a></li>
 				<li>
-					<a>Animer des Formations</a>
-					<ul>
-						<li>
-							<a href="/animer-des-formations" target="_self">Accueil</a>
-						</li>
-						<li>
-							<a href="/animer-des-formations/#formateur" target="_self">
-								Formateurs
-							</a>
-						</li>
-						<li>
-							<a href="/animer-des-formations/#modules" target="_self">Programme</a>
-						</li>
-						<li>
-							<a href="/animer-des-formations/#formation" target="_self">
-								Formation
-							</a>
-						</li>
-						<li>
-							<a href="/animer-des-formations/#tarifs" target="_self">Tarifs</a>
-						</li>
-						<li>
-							<a href="/animer-des-formations/#temoignages" target="_self">Témoignages</a>
-						</li>
-					</ul>
+					<a href="/animer-des-formations">Animer des Formations</a>
 				</li>
 				<li>
 					<a href="/bilan-de-competences" target="_self">Bilan de Compétences</a>

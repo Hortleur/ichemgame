@@ -3,6 +3,7 @@
 	import Header from '../lib/components/header.svelte';
 	import Footer from '../lib/components/footer.svelte';
     import {page} from "$app/stores";
+    let { children } = $props()
 
 
     let currentRoute = $page.url.pathname
@@ -12,7 +13,7 @@
     {#if !currentRoute.includes("/plaquette")}
         <Header />
     {/if}
-    <slot />
+    @render children()
     {#if !currentRoute.includes("/plaquette")}
         <Footer />
     {/if}

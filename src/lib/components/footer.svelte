@@ -2,11 +2,12 @@
 	import Icon from '@iconify/svelte';
 	import CGU from "$lib/assets/conditions/CGU.pdf"
 	import CGV from "$lib/assets/conditions/CGV.pdf"
+	let year = new Date().getFullYear()
 </script>
 
 <footer class="footer items-center p-4 bg-primary text-white">
 	<div class="items-center grid-flow-col">
-		<p>Ichemgame - 2023 - <cite>Vivez de votre savoir et créez la meilleure expérience de formation pour vos apprenants</cite></p>
+		<p>Ichemgame - {year} - <cite>Vivez de votre savoir et créez la meilleure expérience de formation pour vos apprenants</cite></p>
 	</div>
 	<div class=" flex flex-row flex-nowrap gap-3 justify-center w-full font-semibold">
 		<a href="{CGU}" download="CGU.pdf">CGU</a>

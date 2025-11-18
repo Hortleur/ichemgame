@@ -40,7 +40,7 @@
         {#each temoignages as tem }
         <div class="card bg-base-100 shadow-xl w-11/12 lg:w-2/5 lg:shadow-lg my-3 mx-auto lg:mx-0">
             {#if tem.media}
-                <!-- svelte-ignore a11y-media-has-caption -->
+                <!-- svelte-ignore a11y_media_has_caption -->
                 <video src="{tem.media}" controls poster="{tem.image}"></video>
                 {:else}
                 <img src="{tem.image}" alt="{tem.name}" loading="lazy">

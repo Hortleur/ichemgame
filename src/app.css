@@ -1,12 +1,18 @@
-@import "tailwindcss";
-@plugin "da"
+@import 'tailwindcss';
+@plugin "daisyui" {
+	themes:
+		corporate --default,
+		business --prefersdark;
+}
 
 @layer base {
-    html {
-        font-family: Poppins;
-    }
+	html {
+		font-family: Poppins;
+	}
 
-    h2{
-        color: #AF3F46;
-    }
+	h2 {
+		color: #af3f46;
+		font-weight: bold;
+		font-size: 2.25rem;
+	}
 }

@@ -10,7 +10,7 @@
             name: "Ichem",
             video:'https://dropp.server.kevinb.run/$/m6cke',
             image: ichem
-        },
+        }/*,
         {
             id: 1,
             name: 'Monique',
@@ -28,7 +28,7 @@
             name: 'Salim',
             video: 'https://dropp.server.kevinb.run/$/7yUyf',
             image: salim
-        }
+        }*/
     ]
 </script>
 
@@ -39,10 +39,10 @@
     <div class=" lg:grid lg:place-items-center">
         {#each items as item }
         <div class="card bg-base-100 shadow-xl w-11/12 md:w-7/12 lg:w-2/3 mx-auto my-8">
-                <!-- svelte-ignore a11y-media-has-caption -->
-                <video src="{item.video}" poster="{item.image}" controls/>
+                <!-- svelte-ignore a11y_media_has_caption -->
+                <video src="{item.video}" poster="{item.image}" controls></video>
             <div class="card-body">
-                <h2 class="card-title">{item.name}</h2>
+                <h2 class="card-title uppercase">{item.name}</h2>
             </div>
         </div>
     {/each }

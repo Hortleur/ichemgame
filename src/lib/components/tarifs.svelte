@@ -65,10 +65,6 @@
 			class=" px-2 lg:w-3/4 lg:mx-auto flex flex-col gap-3 lg:gap-0 mt-3 lg:flex-row lg:flex-wrap lg:items-center lg:justify-around font-semibold"
 		>
 			<li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">
-				CPF (en partenariat avec EG, centre de formation certifié qualiopi, inscription 15 jours
-				avant l'entrée en formation)
-			</li>
-			<li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">
 				Financement personnel (possibles facilités de paiement sur demande)
 			</li>
 			<li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">
@@ -81,22 +77,6 @@
 				Aides de la Région
 			</li>
 		</ul>
-	</div>
-	<div class=" my-8">
-		<h2 class=" font-semibold text-2xl text-center">
-			Dates <span class=" text-sm font-normal"> (5 sessions/an) </span>
-		</h2>
-		<div class=" flex flex-col flex-nowrap sm:flex-row sm:flex-wrap sm:justify-around gap-2">
-			{#each dates as date}
-				<div
-					class=" flex flex-row flex-nowrap justify-center items-center gap-2 border-2 border-base-300 rounded-md w-4/5 sm:w-1/3 mx-auto px-1 py-3"
-				>
-					<p class=" flex flex-row flex-nowrap">{date.start}</p>
-					<Icon icon="mdi:arrow-right-bold" />
-					<p class=" flex flex-row flex-nowrap">{date.end}</p>
-				</div>
-			{/each}
-		</div>
 	</div>
 	<div class="">
 		<a

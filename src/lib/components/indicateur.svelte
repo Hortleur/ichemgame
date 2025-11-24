@@ -1,7 +1,7 @@
 <script></script>
 
 <div class="w-full flex flex-col items-center justify-center">
-	<div class="stats stats-vertical lg:stats-horizontal shadow">
+	<div class="stats stats-vertical lg:stats-horizontal shadow border-gray-200 border">
 		<div class="stat place-items-center">
 			<div class="stat-title">Taux de Réussite</div>
 			<div class="stat-value">100%</div>

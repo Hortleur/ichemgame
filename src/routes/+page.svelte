@@ -1,4 +1,4 @@
-<script>
+script>
 	import Animer from '$lib/assets/plaquette/animer.jpg';
 	import Bilan from '$lib/assets/plaquette/bilan.jpg';
 	import Qualiop from '$lib/assets/certifier-Qualiopi-par-ICPF.240ca96e.svg';
@@ -44,6 +44,10 @@
 	<div class="my-5">
 		<h2>Nos Chiffres Clés</h2>
 		<Indicateur />
+		<span class="text-xs text-accent"
+			>Données mises à jour en décembre 2024.Prochaine actualisation prévue au 31/12/2025
+			conformément à notre procédure annuelle de suivi qualité.</span
+		>
 	</div>
 
 	<div class="my-5">
